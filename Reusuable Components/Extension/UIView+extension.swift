@@ -10,9 +10,9 @@ import UIKit
 
 extension UIView {
     
-    func addShadowView() {
-        self.layer.shadowOpacity = 0.2
-        self.layer.shadowRadius = 5
+    func addShadowView(shadowOpacity: Float, shadowRadius: CGFloat) {
+        self.layer.shadowOpacity = shadowOpacity
+        self.layer.shadowRadius = shadowRadius
     }
     
     func makeRoundImageView() {
@@ -51,19 +51,19 @@ extension UILabel {
 
 extension UIButton {
     
-    func makeRoundRectangle() {
-        self.layer.cornerRadius = 10
+    func makeRoundRectangle(cornerRadius: CGFloat) {
+        self.layer.cornerRadius = cornerRadius
     }
     
-    func addPadding() {
-        self.titleEdgeInsets = UIEdgeInsets(top: 3, left: 3, bottom: 3, right: 3)
+    func addPaddingWith(topInset: CGFloat, leftInset: CGFloat, bottomInset: CGFloat, rightInset: CGFloat ) {
+        self.titleEdgeInsets = UIEdgeInsets(top: topInset, left: leftInset, bottom: bottomInset, right: rightInset)
     }
 }
 
 extension UIImageView {
     
-    func makeRoundRectangle() {
-        self.layer.cornerRadius = 10
+    func makeRoundRectangleImageView(cornerRadius: CGFloat) {
+        self.layer.cornerRadius = cornerRadius
     }
     
     func makeRounded() {
