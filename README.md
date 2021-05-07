@@ -1,4 +1,4 @@
-#ResusableComponents#
+# ReusableComponents
 
 This is an explanation of reusable components
 
