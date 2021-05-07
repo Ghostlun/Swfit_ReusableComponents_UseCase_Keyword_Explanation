@@ -12,6 +12,8 @@ First, you need to declare using ContactFunctionHandler lazy var
 
 Then, you need to connect with IBAction
 
+<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/ContactHandlerCodeExample.png" />
+
 
 <h4>2. Location Manager </h4>
 
@@ -25,10 +27,13 @@ Also, It provides authorization of location service, also reverses geocoder
 
 How to Use It!
 
+<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/LocationManagerCodeExample.png" />
+
 
 <h4>3. FileManager </h4>
 
-You can read, write, download file into your document directory. It single ton pattern
-
+You can read, write, download file into your document directory. It singleton pattern
 
 So, you can call function directly
+<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/FileCodeExample.png" />
+
