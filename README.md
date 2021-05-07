@@ -1,7 +1,8 @@
-#ResusableComponents
+#ResusableComponents#
+
 This is an explanation of reusable components
 
-1. ContactFunction Handler.
+<h4>1. ContactFunction Handler </h4>
 
 You can send mail, call, message by using this component
 
@@ -12,7 +13,7 @@ First, you need to declare using ContactFunctionHandler lazy var
 Then, you need to connect with IBAction
 
 
-2. Location Manager
+<h4>2. Location Manager </h4>
 
 You can save your location by this location Manager.
 
@@ -25,10 +26,9 @@ Also, It provides authorization of location service, also reverses geocoder
 How to Use It!
 
 
-3. FileManager
+<h4>3. FileManager </h4>
 
 You can read, write, download file into your document directory. It single ton pattern
-
 
 
 So, you can call function directly
