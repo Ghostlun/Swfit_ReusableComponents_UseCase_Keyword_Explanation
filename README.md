@@ -41,5 +41,8 @@ So, you can call function directly
 <h3> Keyword explanation </h3>
 What is Uid: It is key item of data, that you will make use of in security in order to what that user can do with documents.
 
+<h4> Core Data </h4>
+<b>Core Data</b> : Core data is 
+
 
 
