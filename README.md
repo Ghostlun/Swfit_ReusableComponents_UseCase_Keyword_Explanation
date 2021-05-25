@@ -1,6 +1,46 @@
 # ReusableComponents
 
-This is an explanation of reusable components
+
+## Swift keyword 
+1.[CoreData](#1.CoreData)
+2.[UserDefaults](#2.UserDefaults)
+3.[ContactHandler](#3.ContactHandler)
+4.[LocationManager](#4.LocationManager)
+5.[FileManager](#.5FileManager)
+
+
+This is an explanation of reusable componen
+
+## 1.CoreData
+### CoreData Def
+It is a framework that you use to manage the model layer objects in application. 
+It saves user data permanently for offline use, or temporary cache data, and also undo functionality of the app to a single device. It is useful to store large models and data.
+
+### How to use it?
+1. Define your entities and attributes.
+2. Genereate class from them, and get a reference to persistent container
+3. From where you get managed context and through the managed object context, you can create and store objects
+
+### Use case of example
+1. Generate Entity into CoreDat
+<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/LocationManagerCodeExample.png" />
+
+2. Create subclass of coreData
+<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/LocationManagerCodeExample.png" />
+
+4. You need to declare Context
+ <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/LocationManagerCodeExample.png" />
+
+5. Apply function, CRUD ideas
+
+
+
+
+
+Compared to userdefaults, userDefault is used to store simple data.
+
+
+
 
 <h4>1. ContactFunction Handler </h4>
 
