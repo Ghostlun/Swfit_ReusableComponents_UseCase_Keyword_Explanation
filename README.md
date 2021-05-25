@@ -42,10 +42,10 @@ Delete :
 
 
 ### CoreData Demo App
-<center>
+<p align="center">
  <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Update.gif" width = 200 height = 410 />
  <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Close.gif" width = 200 height = 410 />
-</center>
+</p>
 
 
 Compared to userdefaults, userDefault is used to store simple data.
