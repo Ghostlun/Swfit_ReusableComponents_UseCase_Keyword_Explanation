@@ -1,17 +1,16 @@
-# ReusableComponents
-
+# Swfit_ReusableComponents_UseCase 
 
 ## Swift keyword 
-1.[CoreData] (#1.CoreData)
-2.[UserDefaults] (#2.UserDefaults)
-3.[ContactHandler] (#3.ContactHandler)
-4.[LocationManager] (#4.LocationManager)
-5.[FileManager] (#5.FileManager)
+1. [CoreData](CoreData)
+2. [UserDefaults](UserDefaults)
+3. [ContactHandler](ContactHandler)
+4. [LocationManager](LocationManager)
+5. [FileManager](FileManager)
 
 
 This is an explanation of reusable componen
 
-## 1.CoreData
+## CoreData
 ### CoreData Def
 It is a framework that you use to manage the model layer objects in application. 
 It saves user data permanently for offline use, or temporary cache data, and also undo functionality of the app to a single device. It is useful to store large models and data.
@@ -51,7 +50,7 @@ Delete :
 Compared to userdefaults, userDefault is used to store simple data.
 
 
-## 3.ContactHandler
+## ContactHandler
 You can send mail, call, message by using this component
 
 How to use it!
@@ -63,7 +62,7 @@ Then, you need to connect with IBAction
 <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/ContactHandlerCodeExample.png" />
 
 
-## 4.LocationManager
+## LocationManager
 
 You can save your location by this location Manager.
 
@@ -78,7 +77,7 @@ How to Use It!
 <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/LocationManagerCodeExample.png" />
 
 
-## 5.FileManager
+## FileManager
 
 You can read, write, download file into your document directory. It singleton pattern
 
