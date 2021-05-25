@@ -1,11 +1,11 @@
 # Swfit_ReusableComponents_UseCase 
 
 ## Swift keyword 
-1. [CoreData](#CoreData)
-2. [UserDefaults](#UserDefaults)
-3. [ContactHandler](#ContactHandler)
-4. [LocationManager](#LocationManager)
-5. [FileManager](#FileManager)
+1. [CoreData](CoreData)
+2. [UserDefaults](UserDefaults)
+3. [ContactHandler](ContactHandler)
+4. [LocationManager](LocationManager)
+5. [FileManager](FileManager)
 
 
 This is an explanation of reusable componen
@@ -47,24 +47,33 @@ Delete :
 </p>
 
 
+Compared to CoreData, userDefault is used to store simple data.
 
-## UserDefaults
-It stores key-values. It used to store a simple dataSets
 
 ## ContactHandler
 You can send mail, call, message by using this component
+
 How to use it!
+
 First, you need to declare using ContactFunctionHandler lazy var
+
 Then, you need to connect with IBAction
+
 <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/ContactHandlerCodeExample.png" />
 
 
 ## LocationManager
+
 You can save your location by this location Manager.
+
 First, you need to init NetworkManager, then you can call the function you want
+
 Ex, If you want to call getUserLocation, you call it this day. Then, this location will contain user location into CLLocation.
+
 Also, It provides authorization of location service, also reverses geocoder
+
 How to Use It!
+
 <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/Reusuable%20Components/Image/LocationManagerCodeExample.png" />
 
 
