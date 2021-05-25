@@ -2,11 +2,11 @@
 
 
 ## Swift keyword 
-1.[CoreData](#1.CoreData)
-2.[UserDefaults](#2.UserDefaults)
-3.[ContactHandler](#3.ContactHandler)
-4.[LocationManager](#4.LocationManager)
-5.[FileManager](#5.FileManager)
+1.[CoreData] (#1.CoreData)
+2.[UserDefaults] (#2.UserDefaults)
+3.[ContactHandler] (#3.ContactHandler)
+4.[LocationManager] (#4.LocationManager)
+5.[FileManager] (#5.FileManager)
 
 
 This is an explanation of reusable componen
@@ -23,7 +23,7 @@ It saves user data permanently for offline use, or temporary cache data, and als
 
 ### Use case of example
 1. Generate Entity into CoreData
-<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Entity.png" />
+<img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Entity.png"/>
 
 2. Create subclass of coreData
 <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/CreateSubClass.png" />
@@ -32,15 +32,20 @@ It saves user data permanently for offline use, or temporary cache data, and als
  <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Context.png" />
 
 5. Apply function, CRUD ideas
-Create :
+Create, Update :
  <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Create%26Save.png" />
 Read :
  <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Read.png" />
-Update :
 Delete :
+ <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Delete.png" />
 
 
 
+### CoreData Demo App
+<center>
+ <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Update.gif" width = 200 height = 410 />
+ <img src = "https://github.com/Ghostlun/ReusableComponents/blob/master/CoreDataDemo/CoreDataDemo/Resource/GithubResource/Close.gif" width = 200 height = 410 />
+</center>
 
 
 Compared to userdefaults, userDefault is used to store simple data.
