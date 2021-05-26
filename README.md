@@ -8,6 +8,7 @@
 5. [FileManager](FileManager)
 
 
+
 This is an explanation of reusable componen
 
 ## CoreData
@@ -48,6 +49,12 @@ Delete :
 
 
 Compared to CoreData, userDefault is used to store simple data.
+
+## UserDefaults
+It is an interface to user’s defaults database, where you store key-value pairs and persistently scroll launches of app.
+It is used to store small piecies of data which persist across app launches.
+The UserDefaults class provides a programmatic interface for interacting with the default system.
+
 
 
 ## ContactHandler
