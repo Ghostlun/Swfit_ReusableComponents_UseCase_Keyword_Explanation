@@ -6,6 +6,7 @@
 3. [ContactHandler](ContactHandler)
 4. [LocationManager](LocationManager)
 5. [FileManager](FileManager)
+6. [IAP](IAP)
 
 
 
@@ -94,8 +95,27 @@ So, you can call function directly
 <h3> Keyword explanation </h3>
 What is Uid: It is key item of data, that you will make use of in security in order to what that user can do with documents.
 
-<h4> Core Data </h4>
-<b>Core Data</b> : Core data is 
+## IAP:
+### IAP Def
+In App Purchases, It is greatest way to earn the money from IOS applications
+### Type Of IAPs:
+Consumable: Iser need to buy these items every time. Reinstalling, changing, device user might lose their consumable products The cannot be used for free
+Ex: game items, or health, and hints
+
+Non-Consumable: USer buy these items one time, and can be used in future for free. Reinstalling, changing device these products will not be losts
+Ex: Upgrading app to proversion.
+
+Non-renewing subscription: User will be able to use these items for a fixed period of time, these items can be purchases again after subscription end
+Ex: season pass
+Auto-renewable subscriptionL User can buy these item for specified period of time.
+Ex: Netflix
+
+### Process of IAPs
+ITunes connect Setup
+Create codes: PKIAPHandler
+Write codes in swift
+Testing the IAP
+
 
 
 
