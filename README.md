@@ -117,5 +117,11 @@ Write codes in swift
 Testing the IAP
 
 
+## Alamofire
+### What is Alamofire:
+It is a Swift-based HTTP networking library for iOS and macOS. It provides interface on top of Apple's Foundation networking stack that simplifies a number of common networking tasks.
+### Code example:
+
+
 
 
