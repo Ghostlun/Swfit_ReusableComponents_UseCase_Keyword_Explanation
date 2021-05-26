@@ -7,6 +7,7 @@
 4. [LocationManager](LocationManager)
 5. [FileManager](FileManager)
 6. [IAP](IAP)
+7. [Alamofire](Alamofire)
 
 
 
