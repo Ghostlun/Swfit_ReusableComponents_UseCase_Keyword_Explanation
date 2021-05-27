@@ -8,6 +8,7 @@
 5. [FileManager](FileManager)
 6. [IAP](IAP)
 7. [Alamofire](Alamofire)
+8. [Some_Swift_Interview_Question](Some_Swift_Interview_Question)
 
 
 
@@ -122,6 +123,103 @@ Testing the IAP
 ### What is Alamofire:
 It is a Swift-based HTTP networking library for iOS and macOS. It provides interface on top of Apple's Foundation networking stack that simplifies a number of common networking tasks.
 ### Code example:
+
+
+## Some_Swift_Interview_Question
+### What is Alamofire?
+It is Swift-based HTTP Networking library for ios and mac ios.
+It provides an interface of a networking stack that simplifies a number of common networking tasks.
+Using the library, you can request data into the web service easily.
+
+### What is IAP?
+It is In App Purchases, It is a way to earn money from IOS applications.
+There are four types of IOPs
+Consumable, and Non-consumable, Non-renewing subscription, Subscription.
+
+### What is Core Data?
+It is a framework that you use to mange the model layer object in application. It saves data permentality for offline use, temporary cache data, and also undo functionality to a single device.
+How to use it?
+First, you need to create coreData
+and define entities and attribute. Generate class from them, From where you get managed context and through the managed object context, you can create and store objects
+
+### What is userDefualts?
+It is a data dictionary that stores small amounts of datas. Data structure will follow key: value dictionary. You can save various data types. Those saved data will be permanent. 
+Compared to core data, we use this user Defaults for simple data structures
+useCase: page numbers
+
+### What is DispatchQueue?
+It is a top of GCD Queues. It allows device to perform task async and concurrently
+In DispatchQueue, order will be FIFO,
+Serial Q means task are ordered, and concurrent Q means Tasks are task is not ordered,
+Sync: It will block current thread until task is done
+Async: It will not block, it move another class before previous one is finished
+
+### What is DispatchGroup?
+It is grouping together multiple tasks and getting notified all the task are are completed
+What is QOS?
+It shows priority task for you app.
+
+### What is MVC?
+It is a design pattern that separates an application into three logical components, It is composed of view, model, and controller.
+
+### What is MVVM Model?
+MVVM is design pattern. It is composed of model, viewModel, View and ViewController.
+ViewModel send data using callback(closure)/delegates  UIView uiViewcontroller.
+ViewModel transforms model information into values that can be displayed on a view.
+
+What is the difference between of MVVM and MVC?
+MVVM is easier to debug process for complicated data bindings.
+MVVM has one to many relationships between view & viewModel
+MVVM is easy for separate unit testing and code is event-driven
+
+What is control flow?
+It used to control the flow of execution in program
+EX, there are for in loops, while-loop, repeat-while
+
+What is fall through?
+It keep executing next scope of codes.
+
+### What is a generic type?
+It is type of code multiple with all data types. It enables you to write flexible, reusable functions and type that can work with any type.
+use case: <T: String>
+
+### What is ARC?
+It is automatic reference counting to track and mange your app’s memory usage. 
+To manage ARC, we need to use keyword weak var
+
+### What is protocol?
+It is blue prints of methods, property, and init. It will create rule into specific types.
+
+### What is init?
+Init is preparing the process of your instance. It can be used with setting initial value to all non-optional properties.
+
+### What is singleton?
+It is a design pattern. It is created once, then it will have shared property. Normally, we used in FileManager, UserDefualts. it require private init
+
+### What is closure?
+It is a group of code that can be passed from one var to another and also can be used inside a function.
+
+### What is class and structs?
+Classes are reference types, and value type.
+Class can be inherited types, but struct can not be inherited
+Class has init and de-init, But, struct only has init
+
+### What is Unit Test?
+To verify function work or not. Main purpose is to check taht all the individual parts are working instead. Small entities, we can check applications that can be tested. We can reduce number of defects. It will reduce cost of changing
+
+### What is SDLC 
+Requirement/Gathering : It is planning period, I will be overview of projects
+Design of products, there are UI and UX developed design. UI What user goint to see, UX, How user going to feel
+Developments(Develpments talk with product mangers)
+Testing
+Deployment
+
+### What is Agile?
+Terminology: The iterations some developments
+We have differents, when it comes to expectation, how much time will take
+Each model is considered as a short time “frame” in the Agile process model, which typically from one to four weeks
+Sprints: Every task will be delivered in ten tasks
+What is scrum: Based on the time, how much left
 
 
 
