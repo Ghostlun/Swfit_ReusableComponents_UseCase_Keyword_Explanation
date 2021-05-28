@@ -11,13 +11,13 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CoreDataDemo" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="4B7-eq-q3p">
-                                <rect key="frame" x="0.0" y="88" width="414" height="774"/>
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" restorationIdentifier="CoreDataTableViewCell" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="CoreDataTableViewCell" rowHeight="158" id="bJS-eK-OzP" customClass="CoreDataTableViewCell" customModule="CoreDataDemo" customModuleProvider="target">
@@ -87,7 +87,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="973.91304347826099" y="93.75"/>
+            <point key="canvasLocation" x="1683" y="-31"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="Myx-Zd-oBH">
@@ -100,12 +100,43 @@
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
-                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Od9-1b-a3i"/>
+                        <segue destination="t63-hf-KlD" kind="relationship" relationship="rootViewController" id="cNe-8O-QAn"/>
                     </connections>
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eua-vA-1s8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="63.768115942028992" y="93.75"/>
+        </scene>
+        <!--Network Controller-->
+        <scene sceneID="of4-U3-JpM">
+            <objects>
+                <viewController storyboardIdentifier="NetworkController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="t63-hf-KlD" customClass="NetworkController" customModule="CoreDataDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Cqj-0G-JEZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zqJ-bt-OyX">
+                                <rect key="frame" x="184" y="433" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="fetch" destination="t63-hf-KlD" eventType="touchUpInside" id="pCI-WQ-VaY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ifw-f4-6aX"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="zqJ-bt-OyX" firstAttribute="top" secondItem="ifw-f4-6aX" secondAttribute="top" constant="345" id="0yP-TD-sUe"/>
+                            <constraint firstItem="ifw-f4-6aX" firstAttribute="trailing" secondItem="zqJ-bt-OyX" secondAttribute="trailing" constant="184" id="D8g-nQ-xxi"/>
+                            <constraint firstItem="zqJ-bt-OyX" firstAttribute="leading" secondItem="ifw-f4-6aX" secondAttribute="leading" constant="184" id="QEp-hd-mac"/>
+                            <constraint firstItem="ifw-f4-6aX" firstAttribute="bottom" secondItem="zqJ-bt-OyX" secondAttribute="bottom" constant="399" id="X8I-sr-D49"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="vmD-63-thI"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="W7S-Yt-YWB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="861" y="94"/>
         </scene>
     </scenes>
     <resources>
