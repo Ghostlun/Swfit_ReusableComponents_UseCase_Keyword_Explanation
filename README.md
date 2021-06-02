@@ -63,6 +63,8 @@ Disadvantage - It is not useful for sensitive data. Ex: Access Tokens, Active Re
 ### How to save CustromData types
 To save custom Objects, you need to create objects, and encode into data. setValue for data using specific keyword
 Example
+<img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/CustromObject.png" />
+
 
 
 ## NSSecureCodings
