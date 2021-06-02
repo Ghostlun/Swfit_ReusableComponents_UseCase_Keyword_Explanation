@@ -54,15 +54,22 @@ Delete :
 Compared to CoreData, userDefault is used to store simple data.
 
 ## UserDefaults
-userDefault is a class apple provided. It is used to save data for offline use. You can save primary data type and other data type which apple provide us. Also, you can save custom object too.This data will be saved into plist. Data will be saved in key&values format.
+userDefault is a class apple provided. It is used to save data for offline use. You can save primary data type and other data type which apple provide us. Also, you can download custom data type too.This data will be saved into plist. Data will be saved in key&values format.
 
 ### Advantage and Disadvantage
 Advantage - It is fast,it can't save complex data type. It is designed to save small data like preference of userApps
 Disadvantage - It is not useful for sensitive data. Ex: Access Tokens, Active Renewable subscription flags, Number of available coins.
 
 ### How to save CustromData types
+To save custom Objects, you need to create objects, and encode into data. setValue for data using specific keyword
+Example
 
 
+## NSSecureCodings
+NSSecureCoding is protocol introduced in the IOS,
+NSSecureCoding extends the NSCoding protocol by adding the method supportSecureCodings
+By conforming to NSSecureCoding, a class declares that it handles encoding and decoding of instance of its in a way that guards against substitution attacks
+To save objects, we should use -decodeObjectOfClass:forKey: rather than -decodeObjectForKey:
 
 ## ContactHandler
 You can send mail, call, message by using this component
