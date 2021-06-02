@@ -65,13 +65,15 @@ To save custom Objects, you need to create objects, and encode into data. setVal
 Example
 <img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/CustromObject.png" />
 
-
-
 ## NSSecureCodings
 NSSecureCoding is protocol introduced in the IOS,
 NSSecureCoding extends the NSCoding protocol by adding the method supportSecureCodings
 By conforming to NSSecureCoding, a class declares that it handles encoding and decoding of instance of its in a way that guards against substitution attacks
-To save objects, we should use -decodeObjectOfClass:forKey: rather than -decodeObjectForKey:
+// To save objects, we should use -decodeObjectOfClass:forKey: rather than -decodeObjectForKey:
+
+## NSCodings
+NSCoding is the Objective-C way of archiving data and Codable is the Swift way.
+
 
 ## ContactHandler
 You can send mail, call, message by using this component
