@@ -56,7 +56,7 @@ userDefault is a class apple provided. It is used to save data for offline use. 
 Advantage - It is fast,it can't save complex data type. It is designed to save small data like preference of userApps
 Disadvantage - It is not useful for sensitive data. Ex: Access Tokens, Active Renewable subscription flags, Number of available coins.
 
-### How to save CustromData types
+### How to save Custom types
 To save custom Objects, you need to create objects, and encode into data. setValue for data using specific keyword
 Example
 <img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/CustromObject.png" />
@@ -65,13 +65,16 @@ Example
 NSSecureCoding is protocol introduced in the IOS,
 NSSecureCoding extends the NSCoding protocol by adding the method supportSecureCodings
 By conforming to NSSecureCoding, a class declares that it handles encoding and decoding of instance of its in a way that guards against substitution attacks
-// To save objects, we should use -decodeObjectOfClass:forKey: rather than -decodeObjectForKey:
+To save objects, we should use -decodeObjectOfClass:forKey: rather than -decodeObjectForKey:
 
 ## NSCodings
 NSCoding is the Objective-C way of archiving data and Codable is the Swift way.
 It requires init,
 Also encode thod is required.
 This capability provides the basis for archiving (where objects and other structures are stored on disk) and distribution (where objects are copied to different address spaces).
+
+### Format NSCoding
+
 
 ## ContactHandler
 You can send mail, call, message by using this component
