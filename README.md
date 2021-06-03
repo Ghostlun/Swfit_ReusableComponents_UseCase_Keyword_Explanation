@@ -9,6 +9,7 @@
 6. [IAP](#IAP)
 7. [Alamofire](#Alamofire)
 8. [Some_Swift_Interview_Question](#Some_Swift_Interview_Question)
+9. [Submitting App into AppStore](#Submitting_App_into_AppStore)
 
 ## CoreData
 ### CoreData Def
@@ -72,11 +73,9 @@ NSCoding is the Objective-C way of archiving data and Codable is the Swift way.
 It requires init,
 Also encode thod is required.
 This capability provides the basis for archiving (where objects and other structures are stored on disk) and distribution (where objects are copied to different address spaces).
-<img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/NSObject.png" />
-
 
 ### Format NSCoding
-
+<img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/NSObject.png" />
 
 ## ContactHandler
 You can send mail, call, message by using this component
@@ -134,14 +133,31 @@ Ex: Netflix
 ITunes connect Setup
 Create codes: PKIAPHandler
 Write codes in swift
-Testing the IAP
-
 
 ## Alamofire
 ### What is Alamofire:
 It is a Swift-based HTTP networking library for iOS and macOS. It provides interface on top of Apple's Foundation networking stack that simplifies a number of common networking tasks.
 ### Code example:
 
+
+
+## Submit App into App Store
+### Process
+1. Sign up for the Apple Developer Program.
+2. Prepar eyour app for Submission
+3. Create your App Store listing via App Store Connect
+4. Make your App store screen shots
+5. upload your app to App store connect using Xcode
+6. Submit your app reivew
+
+### What is Appled Developer Program
+It access to submit apps to the App sotre on all Apple platfrom
+It has Ability to create Safari extension and list them in extension
+it ahs access to betaversion of Apple Software
+It provides tools like testFoight
+
+#### To create the full app archive, you need to select the Generic IOS Device from list of simulators
+Go to Product >> Archive, and duplicate. 
 
 ## Some_Swift_Interview_Question
 ### What is Alamofire?
