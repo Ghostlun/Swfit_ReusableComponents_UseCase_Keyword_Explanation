@@ -69,7 +69,9 @@ By conforming to NSSecureCoding, a class declares that it handles encoding and d
 
 ## NSCodings
 NSCoding is the Objective-C way of archiving data and Codable is the Swift way.
-It is required init
+It requires init,
+Also encode thod is required.
+This capability provides the basis for archiving (where objects and other structures are stored on disk) and distribution (where objects are copied to different address spaces).
 
 ## ContactHandler
 You can send mail, call, message by using this component
