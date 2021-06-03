@@ -56,7 +56,7 @@ userDefault is a class apple provided. It is used to save data for offline use. 
 Advantage - It is fast,it can't save complex data type. It is designed to save small data like preference of userApps
 Disadvantage - It is not useful for sensitive data. Ex: Access Tokens, Active Renewable subscription flags, Number of available coins.
 
-### How to save CustromData types
+### How to save Custom types
 To save custom Objects, you need to create objects, and encode into data. setValue for data using specific keyword
 Example
 <img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/CustromObject.png" />
