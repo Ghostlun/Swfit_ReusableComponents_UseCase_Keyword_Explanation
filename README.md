@@ -10,10 +10,6 @@
 7. [Alamofire](#Alamofire)
 8. [Some_Swift_Interview_Question](#Some_Swift_Interview_Question)
 
-
-
-This is an explanation of reusable componen
-
 ## CoreData
 ### CoreData Def
 It is a framework that you use to manage the model layer objects in application. 
