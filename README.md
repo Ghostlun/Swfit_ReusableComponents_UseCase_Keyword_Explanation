@@ -72,6 +72,8 @@ NSCoding is the Objective-C way of archiving data and Codable is the Swift way.
 It requires init,
 Also encode thod is required.
 This capability provides the basis for archiving (where objects and other structures are stored on disk) and distribution (where objects are copied to different address spaces).
+<img src = "https://github.com/Ghostlun/Swfit_ReusableComponents_UseCase/blob/master/Example/NSObject.png" />
+
 
 ### Format NSCoding
 
