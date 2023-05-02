@@ -218,8 +218,9 @@ It is type of code multiple with all data types. It enables you to write flexibl
 use case: <T: String>
 
 ### What is ARC?
-It is automatic reference counting to track and mange your app’s memory usage. 
-To manage ARC, we need to use keyword weak var
+It is automatic reference counting to track and mange your app’s memory usage.
+To prevent memrmoy leak, we need to make object be deallocated automactilly
+To manage ARC, we need to use keywords for weak and unwond, weak works for optional type, unwoned uses for nonoptional
 
 ### What is protocol?
 It is blue prints of methods, property, and init. It will create rule into specific types.
@@ -228,13 +229,16 @@ It is blue prints of methods, property, and init. It will create rule into speci
 Init is preparing the process of your instance. It can be used with setting initial value to all non-optional properties.
 
 ### What is singleton?
-It is a design pattern. It is created once, then it will have shared property. Normally, we used in FileManager, UserDefualts. it require private init
+It is a design pattern. It is created once, then it will have shared property. Normally, we used in FileManager, UserDefualts. 
+it require private init
 
 ### What is closure?
 It is a group of code that can be passed from one var to another and also can be used inside a function.
 
 ### What is class and structs?
 Classes are reference types, and value type.
+Reference means each reference shares a single copy of data.
+Struct means each instance keep unique of data.
 Class can be inherited types, but struct can not be inherited
 Class has init and de-init, But, struct only has init
 
@@ -247,6 +251,9 @@ Design of products, there are UI and UX developed design. UI What user goint to 
 Developments(Develpments talk with product mangers)
 Testing
 Deployment
+
+### What is Delegate? 
+It is controller object with interface that can be used to control modify the behavior objects.
 
 ### What is Agile?
 Terminology: The iterations some developments
